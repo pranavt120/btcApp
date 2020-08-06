@@ -1,0 +1,13 @@
+
+
+
+
+     handlesend = ()=>{
+         ws.send(subscribe);
+     }
+
+
+      if(ws.readyState===1){
+            this.handlesend();
+
+        }
